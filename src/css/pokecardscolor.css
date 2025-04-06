@@ -1,0 +1,146 @@
+/* Color for Card-Background */
+.normal {
+    background-color: #d3d3d3;
+}
+
+.grass {
+    background-color: #a8e6a2;
+}
+
+.fire {
+    background-color: #f8a54f;
+}
+
+.water {
+    background-color: #539dff;
+}
+
+.electric {
+    background-color: #f6d74f;
+}
+
+.ice {
+    background-color: #76d1c1;
+}
+
+.fighting {
+    background-color: #c25956;
+}
+
+.poison {
+    background-color: #b57ac4;
+}
+
+.ground {
+    background-color: #d0b68b;
+}
+
+.flying {
+    background-color: #a1bbec;
+}
+
+.psychic {
+    background-color: #ff81b8;
+}
+
+.bug {
+    background-color: #9dc130;
+}
+
+.rock {
+    background-color: #c5a980;
+}
+
+.ghost {
+    background-color: #6060b2;
+}
+
+.dragon {
+    background-color: #086cc7;
+}
+
+.dark {
+    background-color: #5a5957;
+}
+
+.steel {
+    background-color: #b8b8d0;
+}
+
+.fairy {
+    background-color: #ef97e6;
+}
+
+
+/* Stronger colors for Type-Background */
+.normal-bg-type {
+    background-color: #b8b8b8;
+}
+
+.grass-bg-type {
+    background-color: #6fbf6f;
+}
+
+.fire-bg-type {
+    background-color: #ff7f24;
+}
+
+.water-bg-type {
+    background-color: #287bff;
+}
+
+.electric-bg-type {
+    background-color: #ffcc00;
+}
+
+.ice-bg-type {
+    background-color: #4cd6c7;
+}
+
+.fighting-bg-type {
+    background-color: #a9443f;
+}
+
+.poison-bg-type {
+    background-color: #a04ca0;
+}
+
+.ground-bg-type {
+    background-color: #b3864e;
+}
+
+.flying-bg-type {
+    background-color: #7f9be5;
+}
+
+.psychic-bg-type {
+    background-color: #ff5d9e;
+}
+
+.bug-bg-type {
+    background-color: #84ba33;
+}
+
+.rock-bg-type {
+    background-color: #a78950;
+}
+
+.ghost-bg-type {
+    background-color: #4f4fbd;
+}
+
+.dragon-bg-type {
+    background-color: #1d57a6;
+}
+
+.dark-bg-type {
+    background-color: #424242;
+}
+
+.steel-bg-type {
+    background-color: #9090b0;
+}
+
+.fairy-bg-type {
+    background-color: #e667c3;
+}

@@ -1,0 +1,102 @@
+.container {
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 100%; 
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.card.no-hover:hover {
+    transform: scale(1);
+    transition: transform 0.3s ease;
+    cursor: default;
+}
+
+.clicked-card {
+    min-height: 800px !important;
+    max-width: 350px !important;
+    margin-top: 80px;
+    z-index: 10 !important;
+}
+
+.card-img-top {
+    width: 150px;
+}
+
+.card-text {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.text-id {
+    text-align: left !important;
+    color: #ffffff !important;
+} 
+
+.text-type {
+    color: #ffffff !important;
+    width: 60px;
+    height: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.200);
+    display: none;
+}
+
+.card-footer {
+    position: relative;
+}
+
+.next-buttons {
+    position: absolute; 
+    bottom: 5px;
+    width: 100%;
+    height: 40px;
+}
+
+.next__left-picture, .next__right-picture {
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+}
+
+.next__left-picture {
+    left: 10px; 
+    background-image: url('../../assets/icons/left-button.png');
+}
+
+.next__right-picture {
+    right: 10px; 
+    background-image: url('../../assets/icons/right-button.png');
+}
+
+.next__left-picture:hover, .next__right-picture:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}

@@ -1,0 +1,43 @@
+.btn-group {
+    margin-bottom: 10px;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+}
+  
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.progress {
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+.type-headliner {
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.divider {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #000000;
+    width: 100%;
+}

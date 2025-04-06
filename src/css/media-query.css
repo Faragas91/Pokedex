@@ -1,0 +1,57 @@
+/* WIDTH */
+
+@media screen and (max-width: 998px) {
+    .col-md-3 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .col-md-3 {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .title {
+        display: none !important;
+    }
+}
+
+/* HEIGHT */
+
+@media screen and (min-height: 1000px) {
+    .clicked-card {
+        margin-top: 140px !important;
+    }
+}
+
+@media screen and (max-height: 999px) {
+    .clicked-card {
+        margin-top: 80px !important;
+    }
+}
+
+@media screen and (max-height: 950px) {
+    .clicked-card {
+        margin-top: 60px !important;
+    }
+}
+
+@media screen and (max-height: 900px) {
+    .clicked-card {
+        margin-top: 40px !important;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .clicked-card {
+        margin-top: 20px !important;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .clicked-card {
+        margin-top: 10px !important;
+    }
+}
